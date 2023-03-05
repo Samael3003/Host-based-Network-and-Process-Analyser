@@ -113,7 +113,7 @@ For Notify:
 
 - I had created new **python library "Notify.py"** so as to simplify the matters regarding Notifications. Then I impored it as a library, and sent notification.
     
-For Email:
+For Sending Email:
 
 - FOr Email, I had to do a lot of research, since Google had banned the **Less Secure App Permissions** during MAY'2022. So, I created **App-Password** from Security Tab. I, then saved the password in another **python library: "password.py"** and then imported it as the email password. 
 - Moreover, I also imported modules: **ssl** and **smtplib**. The **ssl** module provides access to Transport Layer Security (often known as “Secure Sockets Layer”) encryption and peer authentication facilities for network sockets. The **smtplib** module  was used, as it defines an SMTP client session object that can be used to send mail to any internet machine with an SMTP listener daemon. In this session, the reciever was "smtp.gmail.com" with port "465" (the default port "587" was not working.)
